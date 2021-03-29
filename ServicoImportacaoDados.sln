@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoImportacaoDados", "ServicoImportacaoDados\ServicoImportacaoDados.csproj", "{0AAFDF7F-DB8C-461A-B2FB-DEA00DA791AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaDAL", "CamadaDAL\CamadaDAL.csproj", "{0149B8E5-8066-4172-91C3-6519B6F1D73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaBLL", "CamadaBLL\CamadaBLL.csproj", "{65239642-0836-4BFE-992F-5832CA91AA4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaINFO", "CamadaINFO\CamadaINFO.csproj", "{8D3B3777-FC61-4E18-A583-B09CC05E4F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilidades", "Utilidades\Utilidades.csproj", "{5511DB7C-6D92-4F89-A458-3203E317D0B7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupServicoImportacaoDados", "SetupServicoImportacaoDados\SetupServicoImportacaoDados.vdproj", "{11F584F1-4026-445E-AD4F-7D51ECDE21F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP", "APP\APP.csproj", "{7C416C43-67D5-4AC3-B6D6-B7920F546A8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AAFDF7F-DB8C-461A-B2FB-DEA00DA791AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAFDF7F-DB8C-461A-B2FB-DEA00DA791AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAFDF7F-DB8C-461A-B2FB-DEA00DA791AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAFDF7F-DB8C-461A-B2FB-DEA00DA791AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0149B8E5-8066-4172-91C3-6519B6F1D73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0149B8E5-8066-4172-91C3-6519B6F1D73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0149B8E5-8066-4172-91C3-6519B6F1D73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0149B8E5-8066-4172-91C3-6519B6F1D73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65239642-0836-4BFE-992F-5832CA91AA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65239642-0836-4BFE-992F-5832CA91AA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65239642-0836-4BFE-992F-5832CA91AA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65239642-0836-4BFE-992F-5832CA91AA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3B3777-FC61-4E18-A583-B09CC05E4F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3B3777-FC61-4E18-A583-B09CC05E4F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3B3777-FC61-4E18-A583-B09CC05E4F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3B3777-FC61-4E18-A583-B09CC05E4F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5511DB7C-6D92-4F89-A458-3203E317D0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5511DB7C-6D92-4F89-A458-3203E317D0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5511DB7C-6D92-4F89-A458-3203E317D0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5511DB7C-6D92-4F89-A458-3203E317D0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F584F1-4026-445E-AD4F-7D51ECDE21F0}.Debug|Any CPU.ActiveCfg = Debug
+		{11F584F1-4026-445E-AD4F-7D51ECDE21F0}.Release|Any CPU.ActiveCfg = Release
+		{7C416C43-67D5-4AC3-B6D6-B7920F546A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C416C43-67D5-4AC3-B6D6-B7920F546A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C416C43-67D5-4AC3-B6D6-B7920F546A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C416C43-67D5-4AC3-B6D6-B7920F546A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7222B7A6-1E00-4674-98AB-2E3643C6C226}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsvalid:8080/tfs/projetos
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ServicoImportacaoDados\\ServicoImportacaoDados.csproj
+		SccProjectName1 = ServicoImportacaoDados
+		SccLocalPath1 = ServicoImportacaoDados
+		SccProjectUniqueName2 = CamadaDAL\\CamadaDAL.csproj
+		SccProjectName2 = CamadaDAL
+		SccLocalPath2 = CamadaDAL
+		SccProjectUniqueName3 = CamadaBLL\\CamadaBLL.csproj
+		SccProjectName3 = CamadaBLL
+		SccLocalPath3 = CamadaBLL
+		SccProjectUniqueName4 = CamadaINFO\\CamadaINFO.csproj
+		SccProjectName4 = CamadaINFO
+		SccLocalPath4 = CamadaINFO
+		SccProjectUniqueName5 = Utilidades\\Utilidades.csproj
+		SccProjectName5 = Utilidades
+		SccLocalPath5 = Utilidades
+		SccProjectUniqueName6 = APP\\APP.csproj
+		SccProjectName6 = APP
+		SccLocalPath6 = APP
+		SccProjectUniqueName7 = SetupServicoImportacaoDados\\SetupServicoImportacaoDados.vdproj
+		SccProjectName7 = SetupServicoImportacaoDados
+		SccLocalPath7 = SetupServicoImportacaoDados
+	EndGlobalSection
+EndGlobal
